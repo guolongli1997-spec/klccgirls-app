@@ -12,4 +12,112 @@
 		"directory": "./dist/client",
 		"not_found_handling": "single-page-application"
 	}
+    {
+  "id": "55e9d1d2279656d71089646e5029a7f4",
+  "name": "W-AI",
+  "status": "active",
+  "issued_on": "2026-06-18T19:52:37Z",
+  "modified_on": "2026-06-18T19:52:37Z",
+  "last_used_on": null,
+  "expires_on": "2027-06-18T23:59:59Z",
+  "policies": [
+    {
+      "id": "b710e08848c642f78e95d7125254b271",
+      "effect": "allow",
+      "resources": {
+        "com.cloudflare.api.account.61e201b941702855eb07a25528d7c059": "*"
+      },
+      "permission_groups": [
+        {
+          "id": "cb142f7fbc3540f0bade0cbe75f606dc",
+          "name": "CF Agents Write"
+        },
+        {
+          "id": "bdbcd690c763475a985e8641dddc09f7",
+          "name": "Workers Containers Write"
+        },
+        {
+          "id": "82c075da3f4647a2a03becd0fe240f8a",
+          "name": "Workers Observability Write"
+        },
+        {
+          "id": "adc8fa2bc6124928a8b3314dc63a1235",
+          "name": "Secrets Store Write"
+        },
+        {
+          "id": "5e33b7d77788455c9fdf18cbd38ee5a0",
+          "name": "Secrets Store Read"
+        },
+        {
+          "id": "2e095cf436e2455fa62c9a9c2e18c478",
+          "name": "Workers CI Write"
+        },
+        {
+          "id": "64156ba5be47441096c83c7fc17c488b",
+          "name": "Vectorize Write"
+        },
+        {
+          "id": "1799edaae5db489294430e20d9b519e0",
+          "name": "Vectorize Read"
+        },
+        {
+          "id": "192192df92ee43ac90f2aeeffce67e35",
+          "name": "D1 Read"
+        },
+        {
+          "id": "09b2857d1c31407795e75e3fed8617a1",
+          "name": "D1 Write"
+        },
+        {
+          "id": "8d28297797f24fb8a0c332fe0866ec89",
+          "name": "Pages Write"
+        },
+        {
+          "id": "bf7481a1826f439697cb59a20b22293e",
+          "name": "Workers R2 Storage Write"
+        },
+        {
+          "id": "b4992e1108244f5d8bfbd5744320c2e1",
+          "name": "Workers R2 Storage Read"
+        },
+        {
+          "id": "05880cd1bdc24d8bae0be2136972816b",
+          "name": "Workers Tail Read"
+        },
+        {
+          "id": "f7f0eda5697f475c90846e879bab8666",
+          "name": "Workers KV Storage Write"
+        },
+        {
+          "id": "8b47d2786a534c08a1f94ee8f9f599ef",
+          "name": "Workers KV Storage Read"
+        },
+        {
+          "id": "e086da7e2179491d91ee5f35b3ca210a",
+          "name": "Workers Scripts Write"
+        },
+        {
+          "id": "c1fde68c7bcc44588cbb6ddbc16d6480",
+          "name": "Account Settings Read"
+        }
+      ]
+    },
+    {
+      "id": "3df63e4d06924fce9bcbf699d3921f05",
+      "effect": "allow",
+      "resources": {
+        "com.cloudflare.api.account.61e201b941702855eb07a25528d7c059": {
+          "com.cloudflare.api.account.zone.*": "*"
+        }
+      },
+      "permission_groups": [
+        {
+          "id": "28f4b596e7d643029c524985477ae49a",
+          "name": "Workers Routes Write"
+        }
+      ]
+    }
+  ],
+  "editable": true
+}
 }
